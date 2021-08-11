@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import '../Styles/App.css';
 
-function App() {
+function First_page() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/proyecto-final-cg.appspot.com/o/GlampingFoto2.webp?alt=media&token=00126772-b7b9-493f-9169-0622a43f8c80" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default First_page;
